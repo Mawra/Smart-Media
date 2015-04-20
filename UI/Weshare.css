@@ -1,0 +1,244 @@
+#wrapper{
+   height: auto;
+   width: 980px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+#header{
+ height: 130px;
+
+    background: #003366;
+    
+    
+}
+#logo{
+height: 100px;
+    width: 250px;
+    float: left;
+}
+#w{
+    height: 60px;
+    width: 40px;
+ font-family: Kristen ITC;
+    font-size: 50px;
+    color: white;
+    float: left;
+    padding-left: 10px;  
+}
+#share{
+    height: 40px;
+    width: 160px;
+    font-family: Papyrus;
+    font-size: 30px;
+    color: #a4a4a4;
+    padding-top: 20px;
+    padding-left: 2px;
+    float: left;
+}
+#slogan{
+    height: 25px;
+    width: 180px;
+    font-family: Papyrus;
+    font-size: 16px;
+    color: white;
+  padding-left: 10px;
+    float: left;
+    
+}
+#signin{
+    height: 130px;
+    width: 300px;
+  
+    float: right;
+}
+#login{
+
+float: left;
+
+}
+#login_btn{
+float: right;
+ 
+    background-color: #999999;
+    color: white;
+    font-family: Papyrus;
+    font-size: 15px;
+    width: 80px;
+}
+
+#pass{
+float: left;
+
+}
+#login_btn{
+float: right;
+    margin-right: 0;
+    
+
+}
+
+#search{
+ height: 50px;
+   
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #a4a4a4;
+}
+#s1{
+ font-family: Papyrus;
+color: #003366;
+margin:15px 0 15px 8px;
+float: left;
+}
+.search1{
+background-color: #003366;
+    width: 550px;
+    height: 35px;
+    margin-top: 5px;
+    float: right;
+}
+#AS{
+    color: #003366;
+    font-family: papyrus;
+    float: inherit;
+    text-decoration-line: underline;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.back{
+    height: 100px;
+
+    background-color: #cccccc;
+
+}
+.R1{
+height: 40px;
+    width: 160px;
+    background-color:#003366;
+    float: left;
+    border-radius: 8px;
+    margin-top: 90px;
+    
+   
+
+
+}
+
+#container{
+height: 630px;
+
+   
+}
+#catagories{
+height: 340px;
+    width: 250;
+   
+     float: left;
+    background: #a4a4a4;
+}
+
+ .heading{
+  background-color: #003366;
+     margin-top: 0;
+     color: white;
+     font-family: Papyrus;
+ }
+#catalist{
+text-decoration:none;
+    list-style: none;
+    color: #003366;
+    font-family: Papyrus;
+}
+#raudio{
+height: 200px;
+    width:690;
+    
+    float: right;
+    background: #a4a4a4;
+}
+ 
+#rvideo{
+height: 200px;
+    width: 690px;
+    
+    float: right;
+    background: #a4a4a4;
+
+}
+#rimages{
+height: 200px;
+    width: 690px;
+        
+    float: right;
+    background: #a4a4a4;
+    padding-top: 15px; //(mistake)
+
+}
+#registeration{
+    height: 258px;
+    width: 250px;
+   
+    float: left;
+    margin-top: -40px; 
+   background: #a4a4a4;
+}
+.Reg_heading{
+color: #003366;
+    font-family: Papyrus;
+    float: left;
+    padding-left: 15px;
+}
+#reg_btn{
+color: white;
+    font-family: Papyrus;
+    background-color:#003366; 
+    border-radius: 8px;
+    width: 200px;
+    font-size: 15px;
+}
+.field{
+background-color: #999999;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.field1{
+    background-color:  #999999;
+  width: 180px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+}
+.UP{
+color: white;
+    font-family:  Papyrus;
+    font-size: 20px;
+
+
+}
+#svideo{
+    height:150px;
+    
+	background-color:#a4a4a4;
+    
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+
+}
+#footer{
+height: 100px;
+   
+    background-color: #003366;
+}
+#cright{
+height: 20px;
+    width: inherit;
+   
+    float:bottom;
+    background-color:  #a4a4a4;
+    
+}
