@@ -1,5 +1,5 @@
 #wrapper{
-   height: auto;
+
    width: 980px;
     border: 2px solid black;
     margin: 0 auto;
@@ -8,15 +8,13 @@
 }
 #header{
  height: 130px;
-
-    background: #003366;
-    
-    
+background: #003366;  
 }
 #logo{
 height: 100px;
     width: 250px;
     float: left;
+      padding: 10px 0 0 40px;
 }
 #w{
     height: 60px;
@@ -43,7 +41,7 @@ height: 100px;
     font-family: Papyrus;
     font-size: 16px;
     color: white;
-  padding-left: 10px;
+  padding-left: 30px;
     float: left;
     
 }
@@ -54,7 +52,6 @@ height: 100px;
     float: right;
 }
 #login{
-
 float: left;
 
 }
@@ -66,8 +63,18 @@ float: right;
     font-family: Papyrus;
     font-size: 15px;
     width: 80px;
+    margin-right:50px;
+border-radius: 5px;
 }
-
+#btn_Search
+{height: 35px;
+ border-radius: 5px;
+    background-color: #003366;
+    color: white;
+    font-family: Papyrus;
+    font-size: 15px;
+    width: 80px;
+}
 #pass{
 float: left;
 
@@ -80,24 +87,17 @@ float: right;
 }
 
 #search{
- height: 50px;
-   
+ height: 50px; 
     margin-top: 25px;
     margin-bottom: 25px;
     background: #a4a4a4;
 }
-#s1{
- font-family: Papyrus;
-color: #003366;
-margin:15px 0 15px 8px;
-float: left;
-}
 .search1{
 background-color: #003366;
-    width: 550px;
+    width: 300px;
     height: 35px;
-    margin-top: 5px;
-    float: right;
+    margin: 3px 0 5px 0;
+color: white;
 }
 #AS{
     color: #003366;
@@ -110,32 +110,83 @@ background-color: #003366;
 }
 .back{
     height: 100px;
-
     background-color: #cccccc;
-
 }
 .R1{
 height: 40px;
-    width: 160px;
+    width: 165px;
     background-color:#003366;
     float: left;
+    margin-left: 3px;
     border-radius: 8px;
-    margin-top: 90px;
-    
-   
-
 
 }
 
-#container{
-height: 630px;
-
+#sub-container{
+min-height: 650px;
+    width: 250;
+	float:left;
    
+}
+#content_viewer{
+height:300px;
+width:650px;
+margin:0 auto;
+}
+.like_dislike_stars{
+width:690px;
+min-height: 40px;
+}
+.v_data{
+width:670px;
+    margin: 0 auto;
+min-height: 200px;
+    padding-bottom: 20px;
+    background-color: #cccccc;
+}
+#v_icons{
+float:right;
+margin-right:10px;
+ color: #003366;
+font-family: Papyrus;
+}
+#like a{
+margin-right:12px;
+}
+#back_area{
+ color: #003366;
+    background-color: #999999;
+    border-radius: 10px;
+    width: 650px;
+font-family: Papyrus;
+    margin: 0 auto;
+}
+#back_area p
+{
+margin: 15px 0 15px 10px;
+}
+#btn_post{
+float: right;
+color:#003366;
+ background-color: #999999;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 18px;
+ font-family: Papyrus;
+    margin-right: 20px;
+}
+#content
+{
+width:690px;
+background-color:#a4a4a4;
+min-height:500px;
+    padding-bottom: 10px;
+float:right;
 }
 #catagories{
 height: 340px;
     width: 250;
-   
      float: left;
     background: #a4a4a4;
 }
@@ -143,46 +194,37 @@ height: 340px;
  .heading{
   background-color: #003366;
      margin-top: 0;
+     padding-left: 15px;
      color: white;
      font-family: Papyrus;
  }
+ .heading2{
+     font-size: 20px;
+     margin: -5px 0 -10px 10px;
+     color: #003366;
+     font-family: Papyrus;
+ }
 #catalist{
-text-decoration:none;
     list-style: none;
-    color: #003366;
     font-family: Papyrus;
+    font-size: 18px;
+    margin: -10px 0 0 -10px;
+}
+#catalist a  li {
+color: #003366;
 }
 #raudio{
-height: 200px;
+min-height: 200px;
     width:690;
-    
     float: right;
     background: #a4a4a4;
 }
  
-#rvideo{
-height: 200px;
-    width: 690px;
-    
-    float: right;
-    background: #a4a4a4;
-
-}
-#rimages{
-height: 200px;
-    width: 690px;
-        
-    float: right;
-    background: #a4a4a4;
-    padding-top: 15px; //(mistake)
-
-}
 #registeration{
-    height: 258px;
+    min-height: 258px;
     width: 250px;
-   
     float: left;
-    margin-top: -40px; 
+    margin-top: 30px; 
    background: #a4a4a4;
 }
 .Reg_heading{
@@ -220,18 +262,12 @@ color: white;
 
 }
 #svideo{
-    height:150px;
-    
-	background-color:#a4a4a4;
-    
+    height:170px;
     margin-top: 25px;
-    margin-bottom: 30px;
-
-
+    margin-bottom: 20px;
 }
 #footer{
 height: 100px;
-   
     background-color: #003366;
 }
 #cright{
